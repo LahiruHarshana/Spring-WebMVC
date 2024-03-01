@@ -1,8 +1,6 @@
 package lk.ijse.gdse66.spring.bean;
 
-import org.springframework.web.bind.annotation.GetMapping;
-import org.springframework.web.bind.annotation.RequestMapping;
-import org.springframework.web.bind.annotation.RestController;
+import org.springframework.web.bind.annotation.*;
 
 @RestController
 @RequestMapping("/hello")
@@ -13,5 +11,25 @@ public class HelloWebMVC {
     @GetMapping
     public String sayHello(){
         return  "Hello Spring Web MVC";
+    }
+
+    @PostMapping
+    public String sayHelloPost(){
+        return  "Hello Spring Web MVC Post";
+    }
+
+    @DeleteMapping
+    public String sayHelloDelete(){
+        return  "Hello Spring Web MVC Delete";
+    }
+
+    @PatchMapping
+    public String sayHelloPatch(){
+        return  "Hello Spring Web MVC Patch";
+    }
+
+    @PutMapping
+    public String sayHelloPut(){
+        return  "Hello Spring Web MVC Put";
     }
 }
