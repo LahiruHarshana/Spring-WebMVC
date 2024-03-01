@@ -11,7 +11,7 @@ public class HelloWebMVC {
         System.out.println("HelloWebMVC Instantiated...");
     }
     @GetMapping
-    public void sayHello(){
-        System.out.println("Hello Spring Web MVC");
+    public String sayHello(){
+        return  "Hello Spring Web MVC";
     }
 }
