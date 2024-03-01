@@ -10,7 +10,7 @@ public class HelloWebMVC {
     }
     @GetMapping
     public String sayHello(){
-        return  "Hello Spring Web MVC";
+        return "<h1>Hello Spring Web MVC</h1>";
     }
 
     @PostMapping
