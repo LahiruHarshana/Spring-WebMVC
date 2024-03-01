@@ -10,7 +10,6 @@ public class HelloWebMVC {
     public HelloWebMVC() {
         System.out.println("HelloWebMVC Instantiated...");
     }
-
     @GetMapping
     public void sayHello(){
         System.out.println("Hello Spring Web MVC");
