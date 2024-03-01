@@ -9,4 +9,8 @@ public class HelloWebMVC {
     public HelloWebMVC() {
         System.out.println("HelloWebMVC Instantiated...");
     }
+
+    public void sayHello(){
+        System.out.println("Hello Spring Web MVC");
+    }
 }
