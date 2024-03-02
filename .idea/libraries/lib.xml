@@ -1,0 +1,18 @@
+<component name="libraryTable">
+  <library name="lib">
+    <CLASSES>
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-expression-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-context-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-jcl-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-web-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-aop-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/micrometer-commons-1.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-beans-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/micrometer-observation-1.12.3.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-webmvc-6.1.4.jar!/" />
+      <root url="jar://$PROJECT_DIR$/Controller-Vs-RestController/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/lib/spring-core-6.1.4.jar!/" />
+    </CLASSES>
+    <JAVADOC />
+    <SOURCES />
+  </library>
+</component>
