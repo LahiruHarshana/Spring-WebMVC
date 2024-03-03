@@ -8,7 +8,6 @@ import org.springframework.context.ApplicationContextAware;
 import org.springframework.stereotype.Component;
 import org.springframework.stereotype.Controller;
 import org.springframework.web.bind.annotation.RestController;
-
 //@Component
 public class SpringBean implements BeanNameAware, InitializingBean, DisposableBean, BeanFactoryAware, ApplicationContextAware {
     public SpringBean() {
