@@ -13,10 +13,10 @@ public class SpringBean implements BeanNameAware, InitializingBean, DisposableBe
     public SpringBean() {
         System.out.println("Spring Bean Instantiated...");
     }
+
     @Override
     public void setBeanFactory(BeanFactory beanFactory) throws BeansException {
         System.out.println("Bean Factory Aware...");
-
     }
 
     @Override
