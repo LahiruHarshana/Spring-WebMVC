@@ -10,5 +10,8 @@
         <module name="controller-vs-restcontroller" />
       </profile>
     </annotationProcessing>
+    <bytecodeTargetLevel>
+      <module name="controller-vs-restcontroller" target="17" />
+    </bytecodeTargetLevel>
   </component>
 </project>
