@@ -1,12 +1,12 @@
-package lk.ijse.gdse66.springbootwithbasicauth.service.impl;
+package lk.ijse.gdse66.springbootwithjwt.service.impl;
 
-import lk.ijse.gdse66.springbootwithbasicauth.dto.CustomerDTO;
-import lk.ijse.gdse66.springbootwithbasicauth.entity.CustomerEntity;
-import lk.ijse.gdse66.springbootwithbasicauth.service.CustomerService;
+import lk.ijse.gdse66.springbootwithjwt.dto.CustomerDTO;
+import lk.ijse.gdse66.springbootwithjwt.entity.CustomerEntity;
+import lk.ijse.gdse66.springbootwithjwt.service.CustomerService;
+import lk.ijse.gdse66.springbootwithjwt.repository.CustomerRepo;
 import org.modelmapper.ModelMapper;
 import org.springframework.stereotype.Service;
 import org.springframework.transaction.annotation.Transactional;
-import lk.ijse.gdse66.springbootwithbasicauth.repository.CustomerRepo;
 
 import java.util.List;
 import java.util.stream.Collectors;

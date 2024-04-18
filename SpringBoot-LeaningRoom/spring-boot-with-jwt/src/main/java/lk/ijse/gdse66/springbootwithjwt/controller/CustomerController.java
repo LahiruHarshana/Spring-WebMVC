@@ -1,7 +1,7 @@
-package lk.ijse.gdse66.springbootwithbasicauth.controller;
+package lk.ijse.gdse66.springbootwithjwt.controller;
 
-import lk.ijse.gdse66.springbootwithbasicauth.dto.CustomerDTO;
-import lk.ijse.gdse66.springbootwithbasicauth.service.CustomerService;
+import lk.ijse.gdse66.springbootwithjwt.dto.CustomerDTO;
+import lk.ijse.gdse66.springbootwithjwt.service.CustomerService;
 import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.http.MediaType;
 import org.springframework.web.bind.annotation.GetMapping;

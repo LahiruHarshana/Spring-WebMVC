@@ -1,6 +1,6 @@
-package lk.ijse.gdse66.springbootwithbasicauth.service;
+package lk.ijse.gdse66.springbootwithjwt.service;
 
-import lk.ijse.gdse66.springbootwithbasicauth.dto.CustomerDTO;
+import lk.ijse.gdse66.springbootwithjwt.dto.CustomerDTO;
 import java.util.List;
 
 /**
