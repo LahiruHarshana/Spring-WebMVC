@@ -6,5 +6,4 @@ package lk.ijse.spring.api;
  * @since : 0.1.0
  **/
 public class MyController1 {
-    System.out.println("Hello");
 }

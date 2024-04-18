@@ -5,5 +5,9 @@
     <file url="file://$PROJECT_DIR$/controller-vs-restcontroller/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-webmvc/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/hello-spring-webmvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapping-spec/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapping-spec/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapping-specification/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/mapping-specification/src/main/resources" charset="UTF-8" />
   </component>
 </project>

@@ -4,11 +4,16 @@
   <component name="FrameworkDetectionExcludesConfiguration">
     <file type="web" url="file://$PROJECT_DIR$/controller-vs-restcontroller/target/Controller-Vs-RestController-1.0-SNAPSHOT/WEB-INF/web.xml" />
   </component>
+  <component name="JavadocGenerationManager">
+    <option name="OUTPUT_DIRECTORY" value="$PROJECT_DIR$/javaDoc" />
+  </component>
   <component name="MavenProjectsManager">
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/hello-spring-webmvc/pom.xml" />
         <option value="$PROJECT_DIR$/controller-vs-restcontroller/pom.xml" />
+        <option value="$PROJECT_DIR$/mapping-spec/pom.xml" />
+        <option value="$PROJECT_DIR$/mapping-specification/pom.xml" />
       </list>
     </option>
     <option name="workspaceImportForciblyTurnedOn" value="true" />
