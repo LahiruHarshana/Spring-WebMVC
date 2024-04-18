@@ -9,6 +9,7 @@ import org.springframework.transaction.annotation.Transactional;
 import lk.ijse.gdse66.springbootwithbasicauth.repository.CustomerRepo;
 
 import java.util.List;
+import java.util.stream.Collectors;
 
 /**
  * @author : L.H.J
@@ -28,9 +29,11 @@ public class CustomerServiceImpl implements CustomerService {
     }
     @Override
     public List<CustomerDTO> getAllCustomers() {
-        customerRepo.findAll().stream().map(customerEntity -> modelMapper.map(customerEntity, CustomerDTO.class));
-        return null;
+        return customerRepo.findAll().stream()
+                .map(customerEntity -> modelMapper.map(customerEntity, CustomerDTO.class))
+                .collect(Collectors.toList());
     }
+
     @Override
     public CustomerDTO getCustomer(String id) {
         CustomerEntity customerEntity = customerRepo.findById(id).orElse(null);
